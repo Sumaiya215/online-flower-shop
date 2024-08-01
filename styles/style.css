@@ -10,48 +10,65 @@ body{
 }
 
 .banner-section-container{
-    max-width: 1340px;
-    height: 600px;
-    border: 2px solid red;
+    max-width: 1440px;
+    height: 650px;
+    /* border: 2px solid red; */
     background-color: rgba(229, 84, 115, 0.1);
 }
 
 .banner-content{
     display: flex;
     /* border: 2px solid red; */
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 .banner-text-container{
     width: 50%;
-    height: 600px;
+    height: 650px;
     /* border: 2px solid green; */
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items: center;
+    align-items: flex-start;
 }
+.banner-text-container h1 {
+    margin-bottom: 20px;
+    font-size: 62px;
+  }
+  .banner-text-container p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+  }
 .btn-1{
-    margin-right: 515px;
-   width: 80px;
-   height: 40px;
-    border-radius: 2px;
+    margin-top: 25px;
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
     border: none;
-
     background: rgb(229, 84, 115);
+    color: white;
 }
+/*  need to change */
+.banner-text-container div {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    width: 150px;
+  }
 
 .banner-image-container{
     width: 50%;
-    height: 600px;
+    height: 650px;
     display: flex;
     justify-content:center;
     align-items: center;
-    margin-bottom: 130px;
     /* border: 2px solid blue; */
 }
 
 .banner-image-container img{
     width: 50%;
-    height: 350px;
+    height: 650px;
+    margin-left: 120px;
 }
