@@ -160,5 +160,29 @@
     width: 90%;
     height:90%
   }
+  
+  .instagram-text-content {
+    height: 250px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-insta-image {
+    width: 90%;
+    height: 350px;
+   text-align: center;
+  }
+  .first-insta-image img {
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+  }
+  .instagram-image-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
 }
 
