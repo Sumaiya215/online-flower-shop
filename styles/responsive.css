@@ -178,11 +178,37 @@
     width: 80%;
     height: 80%;
     border-radius: 8px;
+    position: relative;
   }
   .instagram-image-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 0px;
+  }
+
+  .super-deals-container {
+    margin-top:1320px;
+    width: 80%;
+    height: 250px; 
+    margin-bottom: 50px;
+  }
+  .deals-content h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .deals-content p {
+    margin-bottom: 10px;
+    color: gray;
+  }
+  .deals-content input {
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 }
 

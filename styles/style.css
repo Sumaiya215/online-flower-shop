@@ -54,8 +54,8 @@ body{
   }
 .btn-1{
     margin-top: 25px;
-    width: 150px;
-    height: 45px;
+    width: 100px;
+    height: 40px;
     border-radius: 8px;
     border: none;
     background: rgb(229, 84, 115);
@@ -221,15 +221,7 @@ body{
     text-align: center;
   }
   
-  main .hotdeal .text-img-container .textcontainer .btn-1{
-    width: 150px;
-    height: 45px;
-    background-color: rgb(229, 84, 115);
-    border: none;
-    border-radius: 8px;
-    margin-top: 10px;
-    color: white; 
-}
+  
 /* Instagram Section */
 .test {
     border-radius: 50%;
@@ -239,6 +231,7 @@ body{
     height: 1050px;
     margin: 0 auto;
     margin-top: 140px;
+    margin-bottom: 50px;
   }
   .instagram-text-content {
     height: 132px;
@@ -267,10 +260,48 @@ body{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    
+    position: sticky;
   }
   .instagram-image-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+  /* Latest Deals section */
+  .super-deals-container {
+    width: 1080px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url("../images/latest-deals-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+  }
+  .super-deals-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .deals-content p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: rgba(39, 39, 39, 0.6);
+  }
+  .deals-content h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+  .deals-content input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
